@@ -1,0 +1,62 @@
+/* Styles for Privacy Policy page */
+
+.privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .privacy-policy h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-policy h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy ul {
+    margin-left: 20px;
+  }
+  
+  .privacy-policy ul li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .privacy-policy {
+      padding: 15px;
+    }
+  
+    .privacy-policy h1 {
+      font-size: 1.5em;
+    }
+  
+    .privacy-policy h2 {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .privacy-policy {
+      padding: 10px;
+    }
+  
+    .privacy-policy h1 {
+      font-size: 1.2em;
+    }
+  
+    .privacy-policy h2 {
+      font-size: 1em;
+    }
+  }
+  
