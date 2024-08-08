@@ -188,7 +188,7 @@ const PlaceOrder = () => {
                 checked={paymentMethod === "COD"}
                 onChange={onPaymentMethodChange}
               />
-              Cash on Delivery (COD)
+              COD (Cash On Delivery)
             </label>
             <label>
               <input
@@ -197,7 +197,7 @@ const PlaceOrder = () => {
                 checked={paymentMethod === "Stripe"}
                 onChange={onPaymentMethodChange}
               />
-              Stripe Payment / Debit / Credit
+              Stripe (Credit / Debit )
             </label>
           </div>
         </div>
