@@ -7,7 +7,7 @@ const NoResults = () => {
     <div className="no-results-container">
       <img src={assets.noresult} alt="No Results" className="no-results-image" />
       <h2>No Results Found</h2>
-      <p>Sorry, we couldn't find that bitch</p>
+      <p>Sorry, we couldn't find that product</p>
     </div>
   );
 };
